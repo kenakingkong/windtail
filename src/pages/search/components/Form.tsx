@@ -96,6 +96,7 @@ const Form: React.FC<IFormProps> = ({ onSuccess, onChanges }) => {
               id="cssproperty"
               aria-required="true"
               className="h-12 font-bold bg-near-white text-dark-blue focus:outline-none focus:ring-none"
+              onChange={onChange}
             >
               {properties.map((property) => (
                 <option key={property} value={property}>
