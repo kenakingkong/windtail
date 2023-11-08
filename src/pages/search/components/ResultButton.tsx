@@ -44,6 +44,7 @@ const ResultButton: React.FC<IResultButtonProps> = (props) => {
     <button
       onClick={copyToClipboard}
       className="rounded bg-white/20 border-2 border-dark-blue hover:border-blue-black text-dark-blue hover:text-blue-black py-1 px-4 font-bold flex gap-2 items-center justify-center"
+      {...props}
     >
       {props.children}{" "}
       {isCopied ? (

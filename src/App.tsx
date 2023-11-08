@@ -8,7 +8,7 @@ const App = () => (
         reverse tailwind lookup
       </p>
     </header>
-    <main className="py-4 flex-grow flex flex-col items-center gap-8 max-w-2xl">
+    <main className="py-4 flex-grow flex flex-col items-center gap-8 w-full max-w-xl">
       <Search />
     </main>
     <footer className="py-4 flex flex-row items-center justify-center gap-4 text-xs md:text-sm">
